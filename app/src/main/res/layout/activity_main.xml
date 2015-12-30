@@ -1,0 +1,19 @@
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <include
+        android:id="@+id/toolbar_mainActivity"
+        layout="@layout/toolbar"/>
+    <com.geekydreaams.alertraffic.Data_View
+        xmlns:data="http://schemas.android.com/apk/res-auto"
+        data:dataTitle="Traffic Points"
+        android:id="@+id/traffic_view"
+        data:dataHint="Areas with traffic appear here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

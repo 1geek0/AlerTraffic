@@ -1,0 +1,6 @@
+<resources>
+    <declare-styleable name="Data_View">
+        <attr name="dataTitle" format="string" />
+        <attr name="dataHint" format="string" />
+    </declare-styleable>
+</resources>
